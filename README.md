@@ -1,5 +1,6 @@
-  <img src="public/screenshot-1.png" alt="Screenshot">
 ## Authorization Code Flow - Sample React Application
+
+<img src="public/screenshot-1.png" alt="Screenshot">
 
 This application is to demonstrate the Authorization code flow and How to retrieve an access token via Authorization Code grant flow. 
 
