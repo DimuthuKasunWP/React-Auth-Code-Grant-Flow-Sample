@@ -1,9 +1,9 @@
   <img src="public/screenshot-1.png" alt="Screenshot">
-# Authorization Code Flow - Sample React Application
+## Authorization Code Flow - Sample React Application
 
 This application is to demonstrate the Authorization code flow and How to retrieve an access token via Authorization Code grant flow. 
 
-## Setup a New OIDC Application in Asgardeo Console
+### Setup a New OIDC Application in Asgardeo Console with New Customer User Account
 
 1. Go to [Asgardeo console](https://console.asgardeo.io) and create a new OIDC Application(Traditonal Web Application/Standard Application).
 2. Go to `Protocol` tab in your application configuration page.Select `code` as a Allowed grant type to allow Authorization Code grant in your application.
@@ -12,7 +12,7 @@ This application is to demonstrate the Authorization code flow and How to retrie
 5. As we need to do the user authentication in Authorization Code grant flow, we need to create a customer user account in Asgardeo. You can find more about that from [here](https://wso2.com/asgardeo/docs/guides/users/manage-customers/#onboard-a-customer).
 
 
-## Setup Sample Application
+### Setup Sample Application
 
 1. Clone this application repository.
 2. Update the configurations in `src/config.js` file with proper values.
